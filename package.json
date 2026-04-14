@@ -1,6 +1,6 @@
 {
   "name": "outbrain-expo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Expo 55+ wrapper for outbrain-react-native with config plugin, modern TypeScript API, and SmartFeed scroll hook",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
