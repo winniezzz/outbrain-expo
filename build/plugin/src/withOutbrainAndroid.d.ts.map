@@ -1,0 +1,1 @@
+{"version":3,"file":"withOutbrainAndroid.d.ts","sourceRoot":"","sources":["../../../plugin/src/withOutbrainAndroid.ts"],"names":[],"mappings":"AAAA,OAAO,EACL,YAAY,EAGb,MAAM,qBAAqB,CAAC;AAI7B,MAAM,WAAW,mBAAmB;IAClC;;;;OAIG;IACH,eAAe,CAAC,EAAE,MAAM,CAAC;CAC1B;AAID,eAAO,MAAM,iBAAiB,EAAE,YAAY,CAAC,mBAAmB,CA2B/D,CAAC;AAIF,eAAO,MAAM,kBAAkB,EAAE,YAAY,CAAC,mBAAmB,CAyChE,CAAC"}
