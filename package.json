@@ -1,0 +1,43 @@
+{
+  "name": "outbrain-expo",
+  "version": "1.0.0",
+  "description": "Expo 55+ wrapper for outbrain-react-native with config plugin, modern TypeScript API, and SmartFeed scroll hook",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "clean": "rm -rf build"
+  },
+  "keywords": [
+    "outbrain",
+    "expo",
+    "react-native",
+    "ads",
+    "smartfeed",
+    "expo-plugin"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "expo": ">=55.0.0",
+    "react": ">=18.0.0",
+    "react-native": ">=0.78.0",
+    "outbrain-react-native": ">=1.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "expo": "^55.0.0",
+    "typescript": "^5.4.0",
+    "react": "^18.0.0",
+    "react-native": "^0.79.0",
+    "outbrain-react-native": "^1.0.1"
+  },
+  "app": {
+    "plugin": "./app.plugin.js"
+  },
+  "files": [
+    "build",
+    "app.plugin.js",
+    "README.md"
+  ]
+}
